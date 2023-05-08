@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+/**React Date Range Modified CSS Start*/
+.rdrDays button{
+  color: rgb(62, 207, 142)!important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rdrDays .rdrStartEdge{
+  color: rgb(62, 207, 142)!important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rdrDays .rdrDayToday span:after{
+  color: rgb(62, 207, 142)!important;
 }
+.rdrDays .rdrInRange{
+  color: rgb(62, 207, 142)!important;
+}
+.rdrDays .rdrEndEdge{
+  color: rgb(62, 207, 142)!important;
+}
+.rdrDefinedRangesWrapper {
+  height: 350px;
+}
+.rdrInputRanges {
+  display: none;
+}
+.rdrDateDisplayWrapper {
+  display: none;
+}
+.rdrMonthAndYearPickers select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none !important;
+  background-image: none !important;
+  font-weight: bold;
+}
+.rdrMonthAndYearPickers .rdrMonthPicker select {
+  text-align: right;
+  margin: -20px;
+  pointer-events: none !important;
+  opacity: 0.5 !important;
+  color: black;
+}
+.rdrMonthAndYearPickers .rdrYearPicker select {
+  text-align: left;
+  margin: -20px;
+  pointer-events: none !important;
+  opacity: 0.5 !important;
+  color: black;
+}
+.rdrMonthName {
+  display: none;
+}
+.rdrStaticRanges button {
+  color: black!important;
+  font-weight: 100!important;
+}
+/**React Date Range Modified CSS End*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/**Custom CSS Start*/
+.date-range {
+  width: 590px;
+  position: absolute;
+}
+.date-range-my {
+  text-align: end;
+}
+.date-range-my span {
+  margin-right: 155px;
+  position: relative;
+  bottom: -43px;
+  font-weight: bold;
+}
+.date-range-main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+}
+.date-range-data {
+  width: 363px;
+  position: relative;
+  top:-110px;
+  margin-top: -50px;
+  border-left: solid 1px #eff2f7;
+}
+.submit-section {
+  font-size: 12px;
+  border-top: solid 1px #eff2f7;
+  background: #fff;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top:-110px;
+}
+.cancel-btn {
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.cancel-btn:hover {
+  background-color: rgb(217, 217, 217);
+}
+.apply-btn {
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 5px;
+  font-weight: bold;
+  border-radius: 5px;
   color: white;
+  background-color: rgb(62, 207, 142);
+}
+.apply-btn:hover {
+  background-color: rgb(84, 219, 158);
 }
 
-.App-link {
-  color: #61dafb;
+.extra-menu{
+  position:relative;
+  top:-116px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.extra-menu button {
+  
+  width: 225px;
+  font-size: 12px;
 }
+.date-range-mid{
+  color: gray;
+  margin: 8px 3px 0px 3px;
+}
+/**Custom CSS End*/
