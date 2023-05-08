@@ -14,6 +14,9 @@
 .rdrDays .rdrEndEdge{
   color: rgb(62, 207, 142)!important;
 }
+.rdrMonth{
+  z-index: 999;
+}
 .rdrDefinedRangesWrapper {
   height: 350px;
 }
@@ -22,6 +25,9 @@
 }
 .rdrDateDisplayWrapper {
   display: none;
+}
+.rdrDateDisplay{
+  color:rgb(62,207,142);
 }
 .rdrMonthAndYearPickers select {
   -webkit-appearance: none;
@@ -116,6 +122,7 @@
 .extra-menu{
   position:relative;
   top:-116px;
+  z-index: 1;
 }
 .extra-menu button {
   
