@@ -86,7 +86,7 @@ const DateRange = () => {
             <div className='extra-menu'>
                 <button type="button" onClick={() => handleExtraMenu('This year')} className="rdrStaticRange"><span className="rdrStaticRangeLabel">This year</span></button>
                 <button type="button" onClick={() => handleExtraMenu('Last year')} className="rdrStaticRange"><span className="rdrStaticRangeLabel">Last year</span></button>
-                <button type="button" onClick={() => handleExtraMenu('This year')} className="rdrStaticRange"><span className="rdrStaticRangeLabel">All time</span></button>
+                <button type="button" onClick={() => handleExtraMenu('All time')} className="rdrStaticRange"><span className="rdrStaticRangeLabel">All time</span></button>
             </div>
             <div className="date-range-main">
                 <div className="date-range-data">
